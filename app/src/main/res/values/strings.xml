@@ -9,4 +9,13 @@
     <string name="sheme_header_text">sheme/header</string>
     <string name="typeText">type</string>
     <string name="bankText">bank</string>
+    <string name="brand_text">Brand</string>
+    <string name="prepaid_text">Prepaid</string>
+    <string name="country_text">country</string>
+    <string name="latitude">(latitude: %1$d, longitude: %2$d)</string>
+    <string name="length_text">lenght</string>
+    <string name="luhn_text">luhn</string>
+    <string name="card_number_text">Card number</string>
+    <string name="newRequest_text">Новый запрос</string>
+    <string name="requestInfoFragment_header_text">Информация о запросе</string>
 </resources>
