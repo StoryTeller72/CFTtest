@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/requestFragment">
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.cfttest.fragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_requestInfoFragment"
+            app:destination="@id/requestInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/requestFragment"
+        android:name="com.example.cfttest.fragments.RequestFragment"
+        android:label="fragment_request"
+        tools:layout="@layout/fragment_request" >
+        <action
+            android:id="@+id/action_requestFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_requestFragment_to_requestInfoFragment"
+            app:destination="@id/requestInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/requestInfoFragment"
+        android:name="com.example.cfttest.fragments.RequestInfoFragment"
+        android:label="fragment_request_info"
+        tools:layout="@layout/fragment_request_info" />
+</navigation>
