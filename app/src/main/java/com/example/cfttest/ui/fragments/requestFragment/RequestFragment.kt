@@ -1,11 +1,10 @@
-package com.example.cfttest.fragments
+package com.example.cfttest.ui.fragments.requestFragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.cfttest.R
 import com.example.cfttest.databinding.FragmentRequestBinding
 
 class RequestFragment : Fragment() {
@@ -18,7 +17,6 @@ class RequestFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentRequestBinding.inflate(inflater, container, false)
-        val view = binding.root
-        return view
+        return binding.root
     }
 }

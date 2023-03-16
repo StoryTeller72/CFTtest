@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.RequestFragment">
+    tools:context=".ui.fragments.requestFragment.RequestFragment">
 
     <EditText
         android:id="@+id/inputBind_editText_requestFragment"
@@ -28,15 +28,5 @@
         app:layout_constraintStart_toStartOf="@id/inputBind_editText_requestFragment"
         app:layout_constraintEnd_toEndOf="@id/inputBind_editText_requestFragment"
         android:text="@string/make_request_text"/>
-
-    <Button
-        android:id="@+id/showHistory_button_requestFragment"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/request_button_requestFragment"
-        app:layout_constraintStart_toStartOf="@id/request_button_requestFragment"
-        app:layout_constraintEnd_toEndOf="@id/request_button_requestFragment"
-        android:layout_marginTop="8dp"
-        android:text="@string/requestHistory_text"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

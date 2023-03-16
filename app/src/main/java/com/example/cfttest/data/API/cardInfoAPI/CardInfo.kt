@@ -1,4 +1,4 @@
-package com.example.cfttest.retrofit
+package com.example.cfttest.data.API.cardInfoAPI
 
 data class CardInfo(
     val number: Number,
